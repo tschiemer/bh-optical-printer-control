@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=B&H programmer for drag-and-drop
+Comment=(^^)
+Exec=/home/fwp/Desktop/BH_Programmer_Script/launcher-drag.sh
+Icon=/home/fwp/Desktop/BH_Programmer_Script/glider.jpg
+Terminal=true
+Type=Application
+Categories=Utility;Application;

@@ -1,0 +1,14 @@
+{
+    "name": "vendor/serial-testing",
+    "description": "Description of project Serial testing.",
+    "authors": [
+        {
+            "name": "fwp",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "hyperthese/php-serial": "dev-master",
+        "malenki/ansi": "1.2.6"
+    }
+}
