@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=B&H programmer bootup problem...
+Comment=(^^)
+Exec=/home/fwp/Desktop/BH_Programmer_Script/bootup-problem-solver.sh
+Icon=
+Terminal=true
+Type=Application
+Categories=Utility;Application;
