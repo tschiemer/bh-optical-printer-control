@@ -227,6 +227,8 @@ if (!file_exists($serialFile)){
 
 e("<bold>> Setting up serial connection.. </bold>");
 
+clearstatcache(true,$serialFile);
+
 // Let's start the class
 $serial = new PhpSerial;
 
@@ -245,6 +247,10 @@ $serial->confFlowControl($serialFlowControl);
 if (!$serial->deviceOpen()){
     error('ERROR: Serial found but could not be opened. Mhm mhm, try replugging the serial.');
 }
+//else {
+//    $serial->deviceClose();
+//    $serial->deviceOpen();
+//}
 
 
 e("<green>ok</green>\n"); // setting up connection: ok
@@ -278,6 +284,9 @@ while(!$done){
     
     echo ">> Send attempt {$sendAttempt}, send-delay = {$waitTime} sec\n";
    
+//    sleep(1);
+//$serial->sendMessage("r0g0b0\r");
+
     // try to read any data that might be there
     //$serial->readPort();
 
