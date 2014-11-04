@@ -15,7 +15,7 @@ use Malenki\Ansi;
 $inverse = TRUE;
 
 $offset = 0;
-$range = 32;
+$range = 50;
 $maxCommandCount = 48;
 
 $initialWait = 0.1; // time in sec
